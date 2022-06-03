@@ -1,0 +1,10 @@
+Schema:
+---------------------------------
+
+Table Name: Tasklist
+
+Columns:
+Description: varchar(200)
+IsDone: varchar(50)
+CreatedOn: varchar(200)
+Id: Int
