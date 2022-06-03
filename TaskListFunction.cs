@@ -16,7 +16,8 @@ namespace SampleFunctionApp
 {
     public static class TaskListFunction
     {
-        public static string constring = "Server=tcp:ownresearchserver.database.windows.net,1433;Initial Catalog=shopDB;Persist Security Info=False;User ID=SQLAdmin123456;Password=Admin@12345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        //This can be configured from the config file
+        public static string constring = "<Connection String>";
         
         [FunctionName("CreateTask")]
         public static async Task<IActionResult> CreateTask(
